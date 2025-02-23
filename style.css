@@ -21,7 +21,19 @@
 body {
   background: var(--bg-color);
   color: var(--text-color);
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out forwards;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* first step */
 header {
   position: fixed;
@@ -79,7 +91,7 @@ section {
   height: 100vh;
   /* min-height  */
   width: 100%;
-  background-image: url(../portfolio-2/img4.jpg);
+  background-image: url(./img4.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -120,21 +132,19 @@ section {
   line-height: 1.1;
   margin: 0 0 35px;
 }
-.Textanime{
-    /* font-size: 4ch; */
-    text-wrap: nowrap;
-    overflow: hidden;
-    animation: textstyle 1.5s steps(40) infinite 
-    alternate-reverse ;
+.Textanime {
+  /* font-size: 4ch; */
+  text-wrap: nowrap;
+  overflow: hidden;
+  animation: textstyle 1.5s steps(40) infinite alternate-reverse;
 }
 @keyframes textstyle {
-    from{
-        width: 0ch;
-    }
-    to{
-        width: 370px;
-    }
-    
+  from {
+    width: 0ch;
+  }
+  to {
+    width: 370px;
+  }
 }
 .button {
   display: inline-block;
@@ -190,6 +200,34 @@ section {
   font-size: 1.2rem;
   margin-bottom: 3rem;
   line-height: 1.3;
+}
+.about-part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 1rem;
+
+}
+.about-part2 .about-skill {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 220px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1;
+  border: 1px solid var(--main-color);
+  border-radius: 15px;
+  padding: 15px;
+  line-height: 1.1rem;
+  gap: 10px;
+}
+.about-part2 .skillpack{
+  margin: 15px;
+  border-radius: 15px;
+
 }
 .services {
   background: var(--second-bg-color);
