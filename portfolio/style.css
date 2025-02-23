@@ -91,7 +91,7 @@ section {
   height: 100vh;
   /* min-height  */
   width: 100%;
-  background-image: url(./img4.jpg);
+  background-image: url(../assest/img4.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -170,7 +170,7 @@ section {
 }
 
 .about {
-  background-image: url(../portfolio-2/img4.jpg);
+  background-image: url(../assest/img4.jpg);
   background-size: cover;
   background-position: center;
   display: grid;
@@ -179,7 +179,7 @@ section {
   gap: 1.5rem;
 }
 .about img {
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
   width: 100%;
   border-radius: 5px;
@@ -485,9 +485,9 @@ form textarea {
     justify-content: center;
   }
   .about-img img {
-    width: 70%;
+    width: 60%;
     height: auto;
-    max-width: 70%;
+    max-width: 60%;
   }
   .contact {
     grid-template-columns: 1fr;
