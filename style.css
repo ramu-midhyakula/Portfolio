@@ -91,7 +91,7 @@ section {
   height: 100vh;
   /* min-height  */
   width: 100%;
-  background-image: url(../assest/img4.jpg);
+  background-image: url(./assest/img4.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -170,7 +170,7 @@ section {
 }
 
 .about {
-  background-image: url(../assest/img4.jpg);
+  background-image: url(./assest/img4.jpg);
   background-size: cover;
   background-position: center;
   display: grid;
@@ -224,6 +224,7 @@ section {
   line-height: 1.1rem;
   gap: 10px;
 }
+
 .about-part2 .skillpack{
   margin: 15px;
   border-radius: 15px;
