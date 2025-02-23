@@ -136,7 +136,7 @@ section {
   /* font-size: 4ch; */
   text-wrap: nowrap;
   overflow: hidden;
-  animation: textstyle 1.5s steps(40) infinite alternate-reverse;
+  /* animation: textstyle 1.5s steps(40) infinite alternate-reverse; */
 }
 @keyframes textstyle {
   from {
